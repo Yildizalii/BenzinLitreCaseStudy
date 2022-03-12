@@ -1,12 +1,11 @@
 # BenzinLitreCaseStudy
 <p align="center">
-<img src="/logo.jpeg"/>
+
 </p>
 
 <p align="center">
 <img src="/listView.png"  width="200"/>
-<img src="/delete.png" width="200"/>
-<img src="/show.png" width="200"/>
+<img src="/mapView.png" width="200"/>
 </p>
 
 
