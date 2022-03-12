@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		411A3D6D27DBCA09006B062B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A3D6C27DBCA09006B062B /* AppDelegate.swift */; };
 		411A3D6F27DBCA09006B062B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A3D6E27DBCA09006B062B /* SceneDelegate.swift */; };
-		411A3D7127DBCA09006B062B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A3D7027DBCA09006B062B /* ViewController.swift */; };
+		411A3D7127DBCA09006B062B /* TaxiListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A3D7027DBCA09006B062B /* TaxiListViewController.swift */; };
 		411A3D7427DBCA09006B062B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411A3D7227DBCA09006B062B /* Main.storyboard */; };
 		411A3D7627DBCA0B006B062B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411A3D7527DBCA0B006B062B /* Assets.xcassets */; };
 		411A3D7927DBCA0B006B062B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411A3D7727DBCA0B006B062B /* LaunchScreen.storyboard */; };
+		411A3D8127DBD106006B062B /* TaxiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A3D8027DBD106006B062B /* TaxiTableViewCell.swift */; };
+		411A3D8927DBD32E006B062B /* TaxiListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A3D8827DBD32E006B062B /* TaxiListResponse.swift */; };
+		411A3D8B27DBD5B4006B062B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A3D8A27DBD5B4006B062B /* WebService.swift */; };
+		411A3D8D27DBDC2A006B062B /* TaxiListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A3D8C27DBDC2A006B062B /* TaxiListViewModel.swift */; };
+		411A3D8F27DBE6C1006B062B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A3D8E27DBE6C1006B062B /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		411A3D6927DBCA09006B062B /* BenzinLitreCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenzinLitreCaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		411A3D6C27DBCA09006B062B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		411A3D6E27DBCA09006B062B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		411A3D7027DBCA09006B062B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		411A3D7027DBCA09006B062B /* TaxiListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiListViewController.swift; sourceTree = "<group>"; };
 		411A3D7327DBCA09006B062B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		411A3D7527DBCA0B006B062B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		411A3D7827DBCA0B006B062B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		411A3D7A27DBCA0B006B062B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411A3D8027DBD106006B062B /* TaxiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiTableViewCell.swift; sourceTree = "<group>"; };
+		411A3D8827DBD32E006B062B /* TaxiListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiListResponse.swift; sourceTree = "<group>"; };
+		411A3D8A27DBD5B4006B062B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		411A3D8C27DBDC2A006B062B /* TaxiListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiListViewModel.swift; sourceTree = "<group>"; };
+		411A3D8E27DBE6C1006B062B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,50 @@
 			children = (
 				411A3D6C27DBCA09006B062B /* AppDelegate.swift */,
 				411A3D6E27DBCA09006B062B /* SceneDelegate.swift */,
-				411A3D7027DBCA09006B062B /* ViewController.swift */,
-				411A3D7227DBCA09006B062B /* Main.storyboard */,
+				411A3D8727DBD28F006B062B /* Service */,
+				411A3D8427DBD25D006B062B /* ViewModel */,
+				411A3D8327DBD252006B062B /* Models */,
+				411A3D8227DBD243006B062B /* View */,
 				411A3D7527DBCA0B006B062B /* Assets.xcassets */,
 				411A3D7727DBCA0B006B062B /* LaunchScreen.storyboard */,
 				411A3D7A27DBCA0B006B062B /* Info.plist */,
 			);
 			path = BenzinLitreCaseStudy;
+			sourceTree = "<group>";
+		};
+		411A3D8227DBD243006B062B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				411A3D7027DBCA09006B062B /* TaxiListViewController.swift */,
+				411A3D8027DBD106006B062B /* TaxiTableViewCell.swift */,
+				411A3D8E27DBE6C1006B062B /* MapViewController.swift */,
+				411A3D7227DBCA09006B062B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		411A3D8327DBD252006B062B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				411A3D8827DBD32E006B062B /* TaxiListResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		411A3D8427DBD25D006B062B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				411A3D8C27DBDC2A006B062B /* TaxiListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		411A3D8727DBD28F006B062B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				411A3D8A27DBD5B4006B062B /* WebService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				411A3D7127DBCA09006B062B /* ViewController.swift in Sources */,
+				411A3D8B27DBD5B4006B062B /* WebService.swift in Sources */,
+				411A3D8927DBD32E006B062B /* TaxiListResponse.swift in Sources */,
+				411A3D7127DBCA09006B062B /* TaxiListViewController.swift in Sources */,
+				411A3D8127DBD106006B062B /* TaxiTableViewCell.swift in Sources */,
 				411A3D6D27DBCA09006B062B /* AppDelegate.swift in Sources */,
 				411A3D6F27DBCA09006B062B /* SceneDelegate.swift in Sources */,
+				411A3D8D27DBDC2A006B062B /* TaxiListViewModel.swift in Sources */,
+				411A3D8F27DBE6C1006B062B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
