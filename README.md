@@ -10,7 +10,7 @@
 
 
 ## Project Tech Stack
-* Xcode: Version 12.5.1 
+* Xcode: Version 13.2.1
 * Language: Swift 5.4.2
 * Minimum iOS Version: 14.5
 * Powered by ❤️
